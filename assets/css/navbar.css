@@ -1,0 +1,17 @@
+.navbar-nav .btn-success:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .btn-success:not(:first-child){
+    border-left: 1px solid lightgray ;
+}
+
+@media (max-width: 992px){
+    .navbar-nav .btn-success:not(:first-child){
+        border-left: none ;
+    }
+
+    .navbar-nav .btn-success:first-child{
+        margin-top: 0.25rem;
+    }
+}
